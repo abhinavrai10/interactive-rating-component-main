@@ -1,0 +1,29 @@
+.ty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ty img {
+  height: 5rem;
+  width: 7.5rem;
+  margin-bottom: 2rem;
+}
+
+.ty section {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 0.3rem;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+.ty h1 {
+  font-size: 1.3rem;
+  height: 0.5rem;
+}
+
+.ty p {
+  text-align: center;
+  font-size: 0.66rem;
+}

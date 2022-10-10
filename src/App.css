@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.star {
+  width: 2rem;
+  height: 2rem;
+  background-color: hsl(213, 24%, 22%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 1rem;
+  height: 1rem;
+}
+h1 {
+  height: 1.2rem;
+  color: white;
+  font-size: 1.5rem;
+}
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-align: justify;
+}
+section {
+  color: red;
+}

@@ -1,0 +1,18 @@
+.btn {
+  width: 100%;
+  padding: 0.5rem 0;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  margin-top: 0.8rem;
+  font-weight: 700;
+}
+
+.btn:active {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}

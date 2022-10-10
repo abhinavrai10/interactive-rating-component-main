@@ -1,0 +1,30 @@
+.list {
+  margin: 0.8rem 0 0.8rem 0;
+  list-style: none;
+}
+
+.li__btn {
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 18%);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+.li__btn__active {
+  color: white;
+  background-color: hsl(216, 12%, 54%);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.li__btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}

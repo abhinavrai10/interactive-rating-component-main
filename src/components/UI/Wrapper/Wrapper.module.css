@@ -1,0 +1,7 @@
+main {
+  height: 15rem;
+  width: 15rem;
+  background: linear-gradient(120deg, hsl(213, 19%, 18%), hsl(217, 26%, 13%));
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+}
