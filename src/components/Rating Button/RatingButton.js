@@ -11,7 +11,7 @@ const RatingButton = (props) => {
     +props.rating === +props.value ? styles.li__btn__active : styles.li__btn;
 
   return (
-    <li className={styles.list}>
+    <div className={styles.list}>
       <button
         className={classActive}
         onClick={clickHandler}
@@ -19,7 +19,7 @@ const RatingButton = (props) => {
       >
         {props.value}
       </button>
-    </li>
+    </div>
   );
 };
 
